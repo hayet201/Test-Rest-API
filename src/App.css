@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/******************************************/
+
+.interface {
+  background-color: blue;
+  height: 225px;
+}
+
+i {
+  height: 100px;
+  font-size: 196px;
+  color: white;
+  position: relative;
+  top: 106px;
+}
+
+.info {
+  padding-top: 85px;
+}
+
+.users {
+  background-color: beige;
+  line-height: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.btn {
+  margin-top: 16px;
+  padding-right: 12px;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.user {
+  background-color: rgb(218, 148, 19);
+  height: 69px;
+  z-index: 1;
+  position: sticky;
+  box-shadow: 0px 0px 18px 8px grey;
+}
+
+.boutton {
+  width: 91px;
+  margin-left: -39px;
+  height: 34px;
+  position: relative;
+  top: 84px;
+}
+
+.color {
+  background-color: #267EA5;
+  margin-top: 41px;
+  height: 182px;
+  width: 549px;
+  margin-left: 52px;
+  margin-right: 52px;
+  box-shadow: 0px 0px 14px 3px grey;
+  border-radius: 10px;
+}
+
+span {
+  position: relative;
+  top: 95px;
+  left: -111px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.color img {
+  width: 100px;
+  margin-left: 151px;
+}
+
+.posts {
+  width: 483px;
+  text-align: justify;
+  margin-left: 132px;
+  background-color: white;
+  margin-right: 59px;
+  margin-top: 42px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 41px -14px;
+  padding-left: 19px;
+  padding-bottom: 19px;
+  padding-right: 19px;
+}
+
+.post {
+  display: flex;
+}
+
+p {
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.comment {
+  width: 400px;
+  background-color: white;
+  margin-bottom: 11px;
+  margin-top: 38px;
+  box-shadow: 0px 0px 9px 0px;
+  margin-left: 22px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 27px;
+}
